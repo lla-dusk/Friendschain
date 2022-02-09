@@ -1,0 +1,41 @@
+/* @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap'); */
+
+@font-face {
+    font-family: 'GABRWFFR';
+    src: local('GABRWFFR'), url('./fonts/GABRWFFR.TTF') format('truetype');
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    /* font-family: 'ZCOOL KuaiLe', cursive; */
+    font-family: GABRWFFR;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #f0f0f3;
+    /* color: #d8d8d8; */
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+body::-webkit-scrollbar {
+    width: 0.8em;
+}
+
+body::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+    box-shadow: inset 6px 6px 12px #e4e4e7, inset -6px -6px 12px #fcfcff;
+}
+
+body::-webkit-scrollbar-thumb {
+    /* background-color: darkgrey; */
+    background-color: gray;
+    /* outline: 1px solid slategrey; */
+    border-radius: 20px;
+}

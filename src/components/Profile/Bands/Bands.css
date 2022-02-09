@@ -1,0 +1,35 @@
+.gradient-underline {
+    font-size: 28px;
+    font-weight: bolder;
+    justify-self: center;
+    margin: 20px 0px;
+    transition: all 0.5s ease-in;
+    padding-bottom: 0.5px;
+    position: relative;
+    text-decoration: none;
+}
+
+.gradient-underline::after {
+    /* background: #f00; */
+    background: linear-gradient(
+        110.78deg,
+        /* to right, */ transparent 0%,
+        /* #76e650 30%, */ #f9d649 20%,
+        #f08e35 35%,
+        #ec5157 40%,
+        /* #ff18bd 50%, */ #1a4bff 65%,
+        #62d8f9 80%,
+        transparent 100%
+    );
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+}
+
+.gradient-underline:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
